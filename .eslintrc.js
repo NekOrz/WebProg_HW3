@@ -6,6 +6,7 @@ module.exports = {
 		"import"
 	],
 	"rules": {
-		"brace-style": ["error", "stroustrup", {"allowSingleLine": true}]
+		"brace-style": ["error", "stroustrup", {"allowSingleLine": true}],
+		"no-console": 0
 	}
 };
