@@ -22,3 +22,7 @@ nunjucks.configure('views', {
 router.get('/', (req, res) => {
   res.render('index', { title: '首頁' });
 });
+
+router.get('/api/query', (req, res) => {
+  res.json(req.query);
+});
