@@ -1,1 +1,2 @@
-<h1>Error 404 Page Not Found</h1>
+<h1>{{title}}</h1>
+For more info, please visit <a href="{{href}}">here</a>.
