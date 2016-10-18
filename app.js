@@ -26,7 +26,7 @@ app.use('/api', routes.api);
 app.use('/', routes.pages);
 
 app.use((req, res) => {
-  res.render('error404', {
+  res.status(404).render('error404', {
     title: 'Error 404 Page Not Found',
     href: 'https://github.com/NekOrz/WebProg_HW3#webprog-hw3',
   });
